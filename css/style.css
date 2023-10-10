@@ -1,5 +1,33 @@
 body {
-  text-align: center;
+  background-color: #e9c46a;
   font-family: "Raleway", sans-serif;
-  background-color: azure;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: #fefae0;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.grid {
+  display: flex;
 }
