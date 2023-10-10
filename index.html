@@ -21,32 +21,41 @@
       <h1>World clock</h1>
       <select name="cities" id="city-selector">
         <option value="">Select a city</option>
-        <option value="">London</option>
-        <option value="">New York</option>
-        <option value="">Zurich</option>
-        <option value="">Tokyo</option>
-        <option value="">Sydney</option>
+        <option value="Europe/London">London</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/Zurich">Zurich</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option
+          value="Australia/Sydney
+"
+        >
+          Sydney
+        </option>
+        <option value="Greenwich">Greenwich</option>
+        <option value="Africa/Johannesburg">Johannesburg</option>
       </select>
-      <div class="city" id="london">
-        <div>
-          <h2>London</h2>
-          <div class="date">10 October 2023</div>
+      <div id="allCities">
+        <div class="city" id="london">
+          <div>
+            <h2>London</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">17:37:05</div>
-      </div>
-      <div class="city" id="new-york">
-        <div>
-          <h2>New York</h2>
-          <div class="date">10 October 2023</div>
+        <div class="city" id="new-york">
+          <div>
+            <h2>New York</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">17:37:05</div>
-      </div>
-      <div class="city">
-        <div>
-          <h2>Zurich</h2>
-          <div class="date">10 October 2023</div>
+        <div class="city" id="zurich">
+          <div>
+            <h2>Zürich</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">17:37:05</div>
       </div>
     </div>
     <footer>
