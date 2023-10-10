@@ -17,6 +17,7 @@
   </head>
   <body>
     <div class="container">
+      <img src="imgs/Layer 1.png" alt="world-map" class="map-img" />
       <h1>World clock</h1>
       <select name="cities" id="city-selector">
         <option value="">Select a city</option>
@@ -26,14 +27,26 @@
         <option value="">Tokyo</option>
         <option value="">Sydney</option>
       </select>
-      <div class="grid">
-        <div class="row">
-          <div class="col-8">
-            London
-            <div class="date">date</div>
-          </div>
-          <div class="col-4">Time</div>
+      <div class="city">
+        <div>
+          <h2>London</h2>
+          <div class="date">10 October 2023</div>
         </div>
+        <div class="time">17:37:05</div>
+      </div>
+      <div class="city">
+        <div>
+          <h2>New York</h2>
+          <div class="date">10 October 2023</div>
+        </div>
+        <div class="time">17:37:05</div>
+      </div>
+      <div class="city">
+        <div>
+          <h2>Zurich</h2>
+          <div class="date">10 October 2023</div>
+        </div>
+        <div class="time">17:37:05</div>
       </div>
     </div>
     <footer>
@@ -44,6 +57,8 @@
         >Github.</a
       >
     </footer>
+
+    <small></small>
     <script src="javascript/index.js"></script>
   </body>
 </html>
