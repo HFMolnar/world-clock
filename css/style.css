@@ -52,8 +52,9 @@ select {
 
 .city .time {
   align-self: center;
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .return {
